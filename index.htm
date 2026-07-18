@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Your Site Name - Free Videos</title>
+    <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body { 
+            font-family: Arial, sans-serif; 
+            background: #1a1a1a; 
+            color: #fff;
+            padding: 20px;
+        }
+        .header { 
+            text-align: center; 
+            padding: 20px; 
+            border-bottom: 2px solid #ff6b6b;
+            margin-bottom: 30px;
+        }
+        .video-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+            gap: 20px;
+            max-width: 1200px;
+            margin: 0 auto;
+        }
+        .video-card {
+            background: #2d2d2d;
+            border-radius: 8px;
+            overflow: hidden;
+            cursor: pointer;
+            transition: transform 0.2s;
+        }
+        .video-card:hover { transform: scale(1.02); }
+        .thumbnail {
+            width: 100%;
+            height: 180px;
+            background: #444;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: #888;
+        }
+        .video-info { padding: 15px; }
+        .video-title { font-size: 14px; margin-bottom: 8px; }
+        .video-meta { 
+            font-size: 12px; 
+            color: #888;
+            display: flex;
+            justify-content: space-between;
+        }
+        .affiliate-banner {
+            max-width: 1200px;
+            margin: 30px auto;
+            text-align: center;
+            padding: 20px;
+            background: #2d2d2d;
+            border-radius: 8px;
+        }
+        .footer {
+            text-align: center;
+            padding: 40px;
+            color: #666;
+            font-size: 12px;
+        }
+        a { color: #ff6b6b; text-decoration: none; }
+    </style>
+</head>
+<body>
+    <div class="header">
+        <h1>🔥 Your Site Name</h1>
+        <p>Best Free Videos Updated Daily</p>
+    </div>
+
+    <div class="affiliate-banner">
+        <p>🔞 Want Live Action? <a href="YOUR_AFFILIATE_LINK_HERE">Click Here for Live Cams</a> 🔞</p>
+    </div>
+
+    <div class="video-grid">
+        <!-- Video 1 -->
+        <a href="YOUR_AFFILIATE_LINK_HERE" class="video-card" target="_blank">
+            <div class="thumbnail">Video Thumbnail</div>
+            <div class="video-info">
+                <div class="video-title">Video Title Here</div>
+                <div class="video-meta">
+                    <span>12:34</span>
+                    <span>1080p</span>
+                </div>
+            </div>
+        </a>
+
+        <!-- Video 2 -->
+        <a href="YOUR_AFFILIATE_LINK_HERE" class="video-card" target="_blank">
+            <div class="thumbnail">Video Thumbnail</div>
+            <div class="video-info">
+                <div class="video-title">Another Video Title</div>
+                <div class="video-meta">
+                    <span>8:45</span>
+                    <span>720p</span>
+                </div>
+            </div>
+        </a>
+
+        <!-- Video 3 -->
+        <a href="YOUR_AFFILIATE_LINK_HERE" class="video-card" target="_blank">
+            <div class="thumbnail">Video Thumbnail</div>
+            <div class="video-info">
+                <div class="video-title">Third Video Title</div>
+                <div class="video-meta">
+                    <span>15:20</span>
+                    <span>1080p</span>
+                </div>
+            </div>
+        </a>
+    </div>
+
+    <div class="footer">
+        <p>© 2026 Your Site Name | <a href="#">DMCA</a> | <a href="#">Contact</a></p>
+        <p style="margin-top: 10px;">All content linked from external sources. We do not host any videos.</p>
+    </div>
+</body>
+</html>
